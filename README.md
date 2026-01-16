@@ -7,15 +7,20 @@ https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
 The dataset was split into 70% training data and 30% test data
 
-Testing results:
-              precision    recall  f1-score   support
-
-         Ham       0.98      0.98      0.98      1435
-        Spam       0.87      0.90      0.89       238
-
-    accuracy                           0.97      1673
-   macro avg       0.93      0.94      0.93      1673
-weighted avg       0.97      0.97      0.97      1673
+| Metric | Value |
+|--------|-------|
+| **Accuracy** | 0.97 |
+| **Macro Average** | 0.93 |
+| **Weighted Average** | 0.97 |
+| **Total Samples** | 1673 |
+.
+| Metric | Ham | Spam |
+|--------|-----|------|
+| **Precision** | 0.98 | 0.87 |
+| **Recall** | 0.98 | 0.90 |
+| **F1-Score** | 0.98 | 0.89 |
+| **Support** | 1435 | 238 |
+| **Accuracy** | 0.97 |
 
 
 The results show that the model is slightly biased towards predicting ham, leading to a higher recall for ham than spam.
